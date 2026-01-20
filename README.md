@@ -1,7 +1,7 @@
 # 🚁 IoD-Sim Scenario Editor
 
 **Éditeur graphique (GUI) pour créer et modifier des scénarios de simulation pour  
-[IoD-Sim](https://github.com/iod-sim/iod-sim) — *Internet of Drones Simulator*.**
+[IoD-Sim](https://github.com/telematics-lab/IoD_Sim) — *Internet of Drones Simulator*.**
 
 ![Version](https://img.shields.io/badge/Version-0.1-orange)
 ![Status](https://img.shields.io/badge/Status-Work_in_Progress-yellow)
