@@ -12,7 +12,7 @@
 
 ## État du projet (v0.1)
 
-Ce projet est actuellement en **phase de développement initial (version 0.1)**.  
+Ce projet est actuellement en **phase de développement initial**.  
 Il est fonctionnel pour charger, éditer et sauvegarder des scénarios IoD-Sim, mais certaines fonctionnalités restent à implémenter.
 
 ### ✅ Fonctionnalités disponibles
@@ -79,7 +79,6 @@ source venv/bin/activate
 
 ### 3️⃣ Installer les dépendances
 ```text bash
-Copier le code
 pip install PySide6
 ```
 
