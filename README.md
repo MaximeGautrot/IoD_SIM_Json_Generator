@@ -60,28 +60,35 @@ iod_sim_editor/
         ├── __init__.py
         ├── auto_form.py     # Formulaire dynamique
         └── list_editor.py   # Gestionnaire de listes
-2️⃣ Créer un environnement virtuel (recommandé)
+```
+
+### 2️⃣ Créer un environnement virtuel (recommandé)
 Cela évite de polluer l’installation Python globale.
 
 🪟 Windows
-bash
-Copier le code
+```text bash
 python -m venv venv
 .\venv\Scripts\activate
+```
+
 🐧 macOS / Linux
-bash
-Copier le code
+```text bash
 python3 -m venv venv
 source venv/bin/activate
-3️⃣ Installer les dépendances
-bash
+```
+
+### 3️⃣ Installer les dépendances
+```text bash
 Copier le code
 pip install PySide6
-4️⃣ Lancer l’application
-bash
-Copier le code
+```
+
+### 4️⃣ Lancer l’application
+```text bash
 python main.py
-📖 Utilisation
+```
+
+## 📖 Utilisation
 Ouvrir un scénario
 File > Open puis sélectionnez un fichier JSON IoD-Sim existant
 (ex. wifi_gps_spoofing.json).
@@ -101,7 +108,7 @@ Utilisez le bouton X pour supprimer un élément.
 
 Sauvegarder
 
-🛠️ Architecture Technique
+## 🛠️ Architecture Technique
 Le projet repose sur une architecture modulaire séparant clairement la logique métier de l’interface graphique.
 
 Backend (backend/)
